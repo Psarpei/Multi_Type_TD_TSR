@@ -73,7 +73,7 @@ To apply the image alignment pre-processing algorithm to all images in one folde
 
 with the following parameters
 
-* ```--folder``` the input folder including document images
+* ```--input``` the input folder including document images
 * ```--output``` the output folder for the deskewed images
 
 ## Table Structure Recognition (TSR)

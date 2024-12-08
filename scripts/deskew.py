@@ -78,11 +78,11 @@ if __name__ == "__main__":
     
     args = parser.parse_arguments(sys.argv[1:])
 
-    files = os.listdir(args.folder)
+    files = os.listdir(args.input)
 
     for file_ in files:
         print(file_)
-        print(args.folder)
+        print(args.input)
         image = Image(args.input, file_, args.output)
         image.deskew_image()
         image.write_image()
